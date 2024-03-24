@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #caac89;
+}
+
+h1 {
+    color: white;
+    text-shadow: var(--text_sh);
+    font-size: 40px;
+    padding-left: 5vw;
+}
+
+.header_nav {
+
+    background-color: #8d775e ;
+    width: 100vw;
+
+}
+
+.header_nav a {
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 20px 45px;
+    background-color: #8d775e ;
+    font-weight: normal;
+    text-shadow: var(--text_sh);
+    white-space: nowrap;
+}
+
+
+.header_nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.header_nav ul li:hover {
+    background-color: rgb(0, 0, 0);
+    transition: all .5s;
+
+}
+
+.header_nav a:hover {
+
+    opacity: .7;
+    color: black;
+    text-shadow: none;
+}
+
+.photo{
+    background: url(../img/rabbit.png);
+    height: 60vh;
+    width: 90vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 1s;
+}
+
+p{
+    font-size: 23px;
+    color: white;
+    justify-self: end;
+    width: 40vw;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1050px)  {
+    .photo{
+        background: url(../img/rabbit.png);
+        height: 300vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        border: 2px solid white;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 75vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 10px 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    p{
+        font-size: 23px;
+        color: white;
+        justify-self: end;
+        width: 100vw;
+    }
+}
+
+.active{
+    color: black!important;
+}
+
+.photo:hover{
+    transform: scale(1.2);
+}
+
+.pict{
+    background: url(../img/krol.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pict1{
+    background: url(../img/krol1.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pict2{
+    background: url(../img/krol2.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pict3{
+    background: url(../img/krol3.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pict4{
+    background: url(../img/krol4.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pict5{
+    background: url(../img/krol5.png);
+    height: 55vh;
+    width: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+} 
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 10px;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+}
+
+.i:hover{
+    box-shadow: 2px 3px 30px white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.pictu{
+    background: url(../img/krol.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.conta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 10px 10px;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+}
+
+.pictu1{
+    background: url(../img/krol1.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pictu2{
+    background: url(../img/krol2.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pictu3{
+    background: url(../img/krol3.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pictu4{
+    background: url(../img/krol4.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.pictu5{
+    background: url(../img/krol5.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+@media (max-width:1170px){
+    .cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 10px;
+        padding-top: 20px ;
+        padding-bottom:20px ;
+    }
+
+    .i{
+        width: 90vw;
+        height: 70vh;
+    }
+}
